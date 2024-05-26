@@ -79,10 +79,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ ENTER
-  - {type: held}
+  - Q
+  - R
+  - ENTER
+  - {t: LEFT META, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   lower:
