@@ -37,8 +37,8 @@ layers:
   - /
   - {t: \, h: Alt}
   - {t: ↹, h: raise}
-  - {t: ENTER, h: Shift}
-  - {t: ␣, h: lower}
+  - {t: ␣, h: Shift}
+  - {t: ENTER, h: lower}
   - {t: LEFT SHIFT, h: window_manager}
   - {t: ⌫, h: Shift}
   - {t: raise, h: toggle}
