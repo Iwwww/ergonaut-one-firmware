@@ -39,7 +39,7 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ENTER, h: lower}
-  - {t: LEFT SHIFT, h: window_manager}
+  - {t: LEFT META, h: window_manager}
   - {t: ⌫, h: Shift}
   - {t: LEFT ALT, h: lower}
   window_manager:
@@ -82,7 +82,7 @@ layers:
   - Gui+ Q
   - Gui+ R
   - Gui+ ENTER
-  - {type: held}
+  - {t: LEFT META, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   lower:
