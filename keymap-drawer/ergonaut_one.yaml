@@ -135,7 +135,7 @@ layers:
   - KP 8
   - KP 9
   - KP MINUS
-  - MUTE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,11 +147,11 @@ layers:
   - KP 5
   - KP 6
   - KP PLUS
-  - VOLUME UP
   - ←
-  - ↓
+  - DOWN ARROW
   - ↑
   - →
+  - {t: ▽, type: trans}
   - {t: APP, h: Ctrl}
   - Alt
   - KP 0
@@ -159,9 +159,9 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - Vol Down
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - Vol Up
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
