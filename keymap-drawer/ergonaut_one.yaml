@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - Esc
   - Q
   - W
   - E
@@ -39,7 +39,7 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
+  - Gui
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: raise}
   lower:
