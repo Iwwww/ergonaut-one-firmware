@@ -42,6 +42,49 @@ layers:
   - {t: LEFT SHIFT, h: window_manager}
   - {t: ⌫, h: Shift}
   - {t: raise, h: toggle}
+  window_manager:
+  - {t: ▽, type: trans}
+  - Gui+ F1
+  - Gui+ F2
+  - Gui+ F3
+  - Gui+ F4
+  - Gui+ F5
+  - Gui+ F6
+  - Gui+ F7
+  - Gui+ F8
+  - Gui+ F9
+  - Gui+ F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ 1
+  - Gui+ 2
+  - Gui+ 3
+  - Gui+ 4
+  - Gui+ 5
+  - Gui+ 6
+  - Gui+ 7
+  - Gui+ 8
+  - Gui+ 9
+  - Gui+ 0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   lower:
   - {t: F1, h: Gui}
   - Sft+ !
@@ -208,29 +251,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: A, h: game_addon}
+  - {t: A, h: game_lower}
   - ␣
   - Ctrl
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  game_addon:
+  game_lower:
   - '4'
-  - '3'
-  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '5'
-  - '6'
-  - '7'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '5'
-  - M
-  - G
-  - H
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -241,53 +284,7 @@ layers:
   - {t: ▽, type: trans}
   - '6'
   - N
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - ␣
-  - Ctrl
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  window_manager:
-  - {t: ▽, type: trans}
-  - Gui+ F1
-  - Gui+ F2
-  - Gui+ F3
-  - Gui+ F4
-  - Gui+ F5
-  - Gui+ F6
-  - Gui+ F7
-  - Gui+ F8
-  - Gui+ F9
-  - Gui+ F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ 1
-  - Gui+ 2
-  - Gui+ 3
-  - Gui+ 4
-  - Gui+ 5
-  - Gui+ 6
-  - Gui+ 7
-  - Gui+ 8
-  - Gui+ 9
-  - Gui+ 0
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - M
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -298,6 +295,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
