@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+ ENTER
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
