@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: lower}
   - {t: LEFT SHIFT, h: window_manager}
   - {t: ⌫, h: Shift}
-  - {t: raise, h: toggle}
+  - {t: LEFT ALT, h: lower}
   window_manager:
   - {t: ▽, type: trans}
   - Gui+ F1
