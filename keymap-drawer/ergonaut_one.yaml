@@ -39,7 +39,7 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ENTER, h: lower}
-  - {t: LEFT META, h: game_base}
+  - {t: lower, h: sticky}
   - {t: ⌫, h: Shift}
   - {t: LEFT ALT, h: lower}
   lower:
@@ -211,7 +211,7 @@ layers:
   - {t: A, h: default}
   - ␣
   - Ctrl
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   game_lower:
