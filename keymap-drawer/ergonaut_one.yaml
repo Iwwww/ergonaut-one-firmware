@@ -87,14 +87,14 @@ layers:
   - {t: ▽, type: trans}
   lower:
   - {t: F1, h: Gui}
-  - Sft+ !
-  - Sft+ @
-  - 'Sft+ #'
-  - Sft+ $
-  - Sft+ %
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - ':'
-  - Sft+ &
-  - Sft+ *
+  - '&'
+  - '*'
   - (
   - )
   - F12
