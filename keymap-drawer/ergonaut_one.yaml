@@ -189,7 +189,7 @@ layers:
   - S
   - D
   - F
-  - {t: G, type: held}
+  - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -208,12 +208,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: A, h: game_addon, type: held}
+  - {t: A, h: game_addon}
   - ␣
   - Ctrl
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   game_addon:
   - '4'
   - '3'
@@ -259,4 +259,4 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [36, 41, 17]
-  k: {t: game_base, h: sticky}
+  k: {t: game_base, h: toggle}
