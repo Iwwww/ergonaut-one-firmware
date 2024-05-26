@@ -82,7 +82,7 @@ layers:
   - Gui+ Q
   - Gui+ R
   - Gui+ ENTER
-  - {t: LEFT META, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   lower:
