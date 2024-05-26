@@ -306,7 +306,7 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-1.2em">LEFT</tspan><tspan x="0" dy="1.2em">ALT</tspan>
 </text>
-<text x="0" y="24" class="key hold">lower</text>
+<text x="0" y="24" class="key hold">raise</text>
 </g>
 <g class="combo combopos-0">
 <path d="M383,169 l-140,32" class="combo"/>

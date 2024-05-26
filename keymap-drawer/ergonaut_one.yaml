@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: lower}
   - {t: lower, h: sticky}
   - {t: ⌫, h: Shift}
-  - {t: LEFT ALT, h: lower}
+  - {t: LEFT ALT, h: raise}
   lower:
   - {t: F1, h: Gui}
   - '!'
