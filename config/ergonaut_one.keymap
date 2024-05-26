@@ -79,7 +79,7 @@
 &kp N1  &kp Q  &kp W  &kp E    &kp R      &kp T      &trans  &trans  &trans  &trans  &trans  &trans
 &kp N2  &kp A  &kp S  &kp D    &kp F      &kp G      &trans  &trans  &trans  &trans  &trans  &trans
 &kp N3  &kp Z  &kp X  &kp C    &kp V      &kp B      &trans  &trans  &trans  &trans  &trans  &trans
-                      &lt 0 A  &kp SPACE  &kp LCTRL  &trans  &trans  &trans
+                      &lt 5 A  &kp SPACE  &kp LCTRL  &trans  &trans  &trans
             >;
         };
 
