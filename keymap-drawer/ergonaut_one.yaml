@@ -1,5 +1,5 @@
 layers:
-  default:
+  base:
   - Esc
   - Q
   - W
@@ -36,13 +36,13 @@ layers:
   - .
   - /
   - {t: LEFT ALT, h: Alt}
-  - {t: ↹, h: raise}
+  - {t: ↹, h: raise_base}
   - {t: ␣, h: Shift}
-  - {t: ENTER, h: lower}
+  - {t: ENTER, h: lower_base}
   - window_manager
   - {t: ⌫, h: Shift}
-  - {t: LEFT ALT, h: raise}
-  lower:
+  - {t: LEFT ALT, h: raise_base}
+  lower_base:
   - {t: F1, h: Gui}
   - '!'
   - '@'
@@ -54,7 +54,7 @@ layers:
   - '*'
   - (
   - )
-  - F12
+  - ']'
   - {t: +, h: Ctrl}
   - '1'
   - '2'
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
+  raise_base:
   - {t: KP NUM, h: Gui}
   - KP SLASH
   - KP 7
@@ -178,42 +178,42 @@ layers:
   - E
   - R
   - T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '2'
   - A
   - S
   - D
   - F
   - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '3'
   - Z
   - X
   - C
   - V
   - B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: game_lower, h: sticky}
   - ␣
   - Ctrl
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   game_lower:
   - '4'
   - {t: ▽, type: trans}
@@ -303,5 +303,6 @@ layers:
 combos:
 - p: [36, 41, 17]
   k: {t: game_base, h: toggle}
-- p: [36, 41, 13]
-  k: B
+- p: [15, 16]
+  k: ESCAPE
+  l: [base, game_base]
