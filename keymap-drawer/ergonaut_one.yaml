@@ -67,7 +67,7 @@ layers:
   - Gui+ K
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - Gui+ 6
   - Gui+ 7
   - Gui+ 8
@@ -79,10 +79,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Q
-  - R
-  - ENTER
-  - {t: LEFT META, type: held}
+  - Gui+ Q
+  - Gui+ R
+  - Gui+ ENTER
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   lower:
