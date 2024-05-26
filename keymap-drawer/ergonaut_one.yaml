@@ -208,7 +208,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: A, h: game_lower}
+  - {t: A, h: default}
   - ␣
   - Ctrl
   - {t: ▽, type: trans}
@@ -251,7 +251,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -294,9 +294,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
