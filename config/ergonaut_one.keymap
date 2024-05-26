@@ -96,7 +96,7 @@
             bindings = <
 &kp N4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp N5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp N6  &kp N   &kp M   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N6  &kp N   &kp M   &kp I   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };

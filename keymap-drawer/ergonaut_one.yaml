@@ -285,7 +285,7 @@ layers:
   - '6'
   - N
   - M
-  - {t: ▽, type: trans}
+  - I
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
