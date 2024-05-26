@@ -41,7 +41,7 @@ layers:
   - {t: ⏎, h: lower}
   - Gui
   - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - {t: raise, h: toggle}
   lower:
   - {t: F1, h: Gui}
   - Sft+ !
@@ -260,3 +260,5 @@ layers:
 combos:
 - p: [36, 41, 17]
   k: {t: game_base, h: toggle}
+- p: [36, 41, 13]
+  k: A
