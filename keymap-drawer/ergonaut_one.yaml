@@ -150,7 +150,7 @@ layers:
   - Gui+ H
   - Gui+ J
   - Gui+ K
-  - Gui+ K
+  - Lock
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
