@@ -208,7 +208,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: A, h: default}
+  - {t: A, h: game_lower}
   - ␣
   - Ctrl
   - {t: ▽, type: trans}
@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -302,6 +302,6 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [36, 41, 17]
-  k: {t: game_lower, h: toggle}
+  k: {t: game_base, h: toggle}
 - p: [36, 41, 13]
-  k: A
+  k: B
