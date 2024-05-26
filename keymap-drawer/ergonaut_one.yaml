@@ -39,7 +39,7 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ENTER, h: lower}
-  - {t: lower, h: sticky}
+  - window_manager
   - {t: ⌫, h: Shift}
   - {t: LEFT ALT, h: raise}
   lower:
@@ -119,8 +119,8 @@ layers:
   - MUTE
   - Vol Up
   - VOLUME DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI INC
+  - BRI DEC
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -168,7 +168,7 @@ layers:
   - Gui+ Q
   - Gui+ ␣
   - Gui+ ENTER
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   game_base:
