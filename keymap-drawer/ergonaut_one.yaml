@@ -37,8 +37,8 @@ layers:
   - /
   - {t: \, h: Alt}
   - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
+  - {t: ENTER, h: Shift}
+  - {t: ␣, h: lower}
   - Gui
   - {t: ⌫, h: Shift}
   - {t: raise, h: toggle}
