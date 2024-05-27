@@ -165,8 +165,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ Q
-  - Gui+ ␣
+  - Gui+ ↹
+  - Gui+ LEFT SHIFT
   - Gui+ ENTER
   - {type: held}
   - {t: ▽, type: trans}
