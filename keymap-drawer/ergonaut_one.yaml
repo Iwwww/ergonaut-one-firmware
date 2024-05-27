@@ -39,7 +39,7 @@ layers:
   - {t: ↹, h: raise_base}
   - {t: ␣, h: Shift}
   - {t: ENTER, h: lower_base}
-  - {t: ENTER, h: window_manager}
+  - {t: Ctrl, h: window_manager}
   - {t: ⌫, h: Shift}
   - {t: LEFT ALT, h: raise_base}
   lower_base:
