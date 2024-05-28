@@ -141,7 +141,7 @@ layers:
   - Gui+ F9
   - Gui+ F10
   - {t: ▽, type: trans}
-  - Q
+  - Gui+ Q
   - Gui+ 1
   - Gui+ 2
   - Gui+ 3
