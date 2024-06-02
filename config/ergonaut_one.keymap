@@ -46,19 +46,19 @@
 
         base {
             bindings = <
-&kp PIPE            &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I           &kp O    &kp P     &kp LBKT
+&kp BACKSLASH       &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I           &kp O    &kp P     &kp LBKT
 &mt LEFT_ALT GRAVE  &kp A  &kp S  &kp D      &kp F            &kp G        &kp H        &kp J           &kp K           &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LCTRL MINUS     &kp Z  &kp X  &kp C      &kp V            &kp B        &kp N        &kp M           &kp COMMA       &kp DOT  &kp FSLH  &mt RALT LEFT_ALT
+&mt LCTRL MINUS     &kp Z  &kp X  &kp C      &kp V            &kp B        &kp N        &kp M           &kp COMMA       &kp DOT  &kp FSLH  &kp LEFT_ALT
                                   &lt 2 TAB  &mt LSHFT SPACE  &lt 1 ENTER  &lt 3 LCTRL  &mt RSHFT BSPC  &lt 2 LEFT_ALT
             >;
         };
 
         lower_base {
             bindings = <
-&mt LGUI F1     &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp COLON  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
-&mt LCTRL PLUS  &kp N1    &kp N2  &kp NUMBER_3  &kp N4      &kp N5       &kp N6     &kp N7    &kp N8    &kp N9                &kp N0                 &mt RCTRL MINUS
-&mt LALT EQUAL  &kp F2    &kp F3  &kp F4        &kp F5      &kp F6       &kp F7     &kp F8    &kp F9    &kp F10               &kp F11                &kp RALT
-                                  &trans        &trans      &trans       &trans     &trans    &trans
+&kp F1           &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp COLON  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&mt LCTRL PLUS   &kp N1    &kp N2  &kp NUMBER_3  &kp N4      &kp N5       &kp N6     &kp N7    &kp N8    &kp N9                &kp N0                 &mt RCTRL MINUS
+&mt LCTRL EQUAL  &kp F2    &kp F3  &kp F4        &kp F5      &kp F6       &kp F7     &kp F8    &kp F9    &kp F10               &kp F11                &kp LEFT_ALT
+                                   &trans        &trans      &trans       &trans     &trans    &trans
             >;
         };
 
@@ -66,7 +66,7 @@
             bindings = <
 &mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &trans      &trans          &trans             &trans         &trans         &trans
 &mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp LEFT    &kp DOWN_ARROW  &kp UP             &kp RIGHT      &trans         &mt RCTRL K_APP
-&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_MUTE  &kp C_VOL_UP    &kp C_VOLUME_DOWN  &kp C_BRI_INC  &kp C_BRI_DEC  &trans
+&kp LCTRL        &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_MUTE  &kp C_VOL_UP    &kp C_VOLUME_DOWN  &kp C_BRI_INC  &kp C_BRI_DEC  &trans
                                              &trans     &trans     &trans        &trans      &trans          &trans
             >;
         };

@@ -1,6 +1,6 @@
 layers:
   base:
-  - '|'
+  - \
   - Q
   - W
   - E
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - /
-  - {t: LEFT ALT, h: Alt}
+  - LEFT ALT
   - {t: ↹, h: raise_base}
   - {t: ␣, h: Shift}
   - {t: ENTER, h: lower_base}
@@ -43,7 +43,7 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: LEFT ALT, h: raise_base}
   lower_base:
-  - {t: F1, h: Gui}
+  - F1
   - '!'
   - '@'
   - '#'
@@ -67,7 +67,7 @@ layers:
   - '9'
   - '0'
   - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - {t: '=', h: Ctrl}
   - F2
   - F3
   - F4
@@ -78,7 +78,7 @@ layers:
   - F9
   - F10
   - F11
-  - Alt
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -110,7 +110,7 @@ layers:
   - →
   - {t: ▽, type: trans}
   - {t: APP, h: Ctrl}
-  - Alt
+  - Ctrl
   - KP 0
   - KP 1
   - KP 2
