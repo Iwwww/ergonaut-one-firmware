@@ -1,6 +1,6 @@
 layers:
   base:
-  - ''
+  - '|'
   - Q
   - W
   - E
@@ -209,7 +209,7 @@ layers:
   - ''
   - ''
   - {t: game_lower, h: sticky}
-  - ␣
+  - {t: ␣, h: LEFT SHIFT}
   - Ctrl
   - ''
   - ''
@@ -243,7 +243,7 @@ layers:
   - N
   - M
   - I
-  - {t: ▽, type: trans}
+  - ↹
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [36, 41, 17]
+- p: [17, 38, 37]
   k: {t: game_base, h: toggle}
 - p: [15, 16]
   k: ESCAPE
