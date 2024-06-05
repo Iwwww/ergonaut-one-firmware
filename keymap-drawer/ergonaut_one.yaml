@@ -100,10 +100,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
+  - Sft+ SCROLL UP
+  - SCROLL UP
+  - SCROLL DOWN
+  - Sft+ SCROLL DOWN
   - ←
   - DOWN ARROW
   - ↑
