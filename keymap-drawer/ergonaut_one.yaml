@@ -210,7 +210,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: game_lower, h: sticky}
   - {t: ␣, h: LEFT SHIFT}
-  - {t: LEFT ALT, h: Ctrl}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
