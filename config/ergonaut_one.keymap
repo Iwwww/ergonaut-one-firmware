@@ -91,10 +91,10 @@
 
         game_lower {
             bindings = <
-&kp N4  &trans  &trans  &trans       &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp N5  &trans  &trans  &trans       &kp H    &kp J   &trans  &trans  &trans  &trans  &trans  &trans
-&kp N6  &kp N   &kp M   &kp I        &kp TAB  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &key_repeat  &trans   &trans  &trans  &trans  &trans
+&kp N4  &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N5  &trans  &trans  &trans  &kp H    &kp J   &trans  &trans  &trans  &trans  &trans  &trans
+&kp N6  &kp N   &kp M   &kp I   &kp TAB  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans   &trans  &trans  &trans  &trans
             >;
         };
 
