@@ -82,19 +82,19 @@
 
         game_base {
             bindings = <
-&kp N1  &kp Q  &kp W  &kp E        &kp R           &kp T         &trans  &trans  &trans  &trans  &trans  &trans
-&kp N2  &kp A  &kp S  &kp D        &kp F           &kp G         &trans  &trans  &trans  &trans  &trans  &trans
-&kp N3  &kp Z  &kp X  &kp C        &kp V           &kp B         &trans  &trans  &trans  &trans  &trans  &trans
-                      &lt 5 SPACE  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans  &trans
+&kp N1  &kp Q  &kp W  &kp E             &kp R      &kp T         &trans  &trans  &trans  &trans  &trans  &trans
+&kp N2  &kp A  &kp S  &kp D             &kp F      &kp G         &trans  &trans  &trans  &trans  &trans  &trans
+&kp N3  &kp Z  &kp X  &kp C             &kp V      &kp B         &trans  &trans  &trans  &trans  &trans  &trans
+                      &lt 5 LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT  &trans  &trans  &trans
             >;
         };
 
         game_lower {
             bindings = <
-&kp N4  &trans  &trans  &trans     &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp N5  &trans  &trans  &trans     &kp H    &kp J   &trans  &trans  &trans  &trans  &trans  &trans
-&kp N6  &kp N   &kp M   &kp I      &kp TAB  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &kp SPACE  &trans   &trans  &trans  &trans  &trans
+&kp N4  &trans  &trans  &trans       &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N5  &trans  &trans  &trans       &kp H    &kp J   &trans  &trans  &trans  &trans  &trans  &trans
+&kp N6  &kp N   &kp M   &kp I        &kp TAB  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &key_repeat  &trans   &trans  &trans  &trans  &trans
             >;
         };
 

@@ -208,8 +208,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ␣, h: game_lower}
-  - LEFT SHIFT
+  - {t: LEFT SHIFT, h: game_lower}
+  - ␣
   - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,7 +251,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ␣, type: held}
+  - {t: '&key_repeat', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
