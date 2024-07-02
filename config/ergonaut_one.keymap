@@ -39,6 +39,16 @@
             bindings = <&sk LEFT_META>;
             key-positions = <19 20>;
         };
+
+        Meta {
+            bindings = <&kp LEFT_META>;
+            key-positions = <2 3>;
+        };
+
+        Escape {
+            bindings = <&kp ESC>;
+            key-positions = <8 7>;
+        };
     };
 
     keymap {
