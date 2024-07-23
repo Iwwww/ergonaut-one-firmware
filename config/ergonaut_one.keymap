@@ -40,12 +40,12 @@
             key-positions = <19 20>;
         };
 
-        Meta {
+        Meta_2 {
             bindings = <&kp LEFT_META>;
             key-positions = <3 4>;
         };
 
-        Escape {
+        Escape_2 {
             bindings = <&kp ESC>;
             key-positions = <8 7>;
         };
