@@ -42,7 +42,7 @@
 
         Meta {
             bindings = <&kp LEFT_META>;
-            key-positions = <2 3>;
+            key-positions = <3 4>;
         };
 
         Escape {

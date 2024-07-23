@@ -308,7 +308,7 @@ combos:
   l: [base, game_base]
 - p: [19, 20]
   k: {t: LEFT META, h: sticky}
-- p: [2, 3]
+- p: [3, 4]
   k: LEFT META
 - p: [8, 7]
   k: Esc
