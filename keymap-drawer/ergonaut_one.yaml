@@ -141,7 +141,7 @@ layers:
   - Gui+ F9
   - Gui+ F10
   - {t: ▽, type: trans}
-  - Gui+ Q
+  - {t: ▽, type: trans}
   - Gui+ 1
   - Gui+ 2
   - Gui+ 3
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+ ↹
-  - LEFT SHIFT
+  - {t: ␣, h: LEFT SHIFT}
   - Gui+ ENTER
   - {type: held}
   - {t: ▽, type: trans}
