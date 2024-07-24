@@ -309,6 +309,6 @@ combos:
 - p: [19, 20]
   k: {t: LEFT META, h: sticky}
 - p: [3, 4]
-  k: LEFT META
+  k: {t: LEFT META, h: sticky}
 - p: [8, 7]
-  k: Esc
+  k: {t: Esc, h: sticky}

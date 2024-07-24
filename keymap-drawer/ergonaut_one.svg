@@ -345,10 +345,12 @@ text.label, text.footer { stroke: black; }
 <text x="224" y="32" class="combo tap">
 <tspan x="224" dy="-0.6em">LEFT</tspan><tspan x="224" dy="1.2em">META</tspan>
 </text>
+<text x="224" y="42" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
 <text x="616" y="32" class="combo tap">Esc</text>
+<text x="616" y="42" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -546,10 +548,12 @@ text.label, text.footer { stroke: black; }
 <text x="224" y="32" class="combo tap">
 <tspan x="224" dy="-0.6em">LEFT</tspan><tspan x="224" dy="1.2em">META</tspan>
 </text>
+<text x="224" y="42" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
 <text x="616" y="32" class="combo tap">Esc</text>
+<text x="616" y="42" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -789,10 +793,12 @@ text.label, text.footer { stroke: black; }
 <text x="224" y="32" class="combo tap">
 <tspan x="224" dy="-0.6em">LEFT</tspan><tspan x="224" dy="1.2em">META</tspan>
 </text>
+<text x="224" y="42" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
 <text x="616" y="32" class="combo tap">Esc</text>
+<text x="616" y="42" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -1036,10 +1042,12 @@ text.label, text.footer { stroke: black; }
 <text x="224" y="32" class="combo tap">
 <tspan x="224" dy="-0.6em">LEFT</tspan><tspan x="224" dy="1.2em">META</tspan>
 </text>
+<text x="224" y="42" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
 <text x="616" y="32" class="combo tap">Esc</text>
+<text x="616" y="42" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -1242,10 +1250,12 @@ text.label, text.footer { stroke: black; }
 <text x="224" y="32" class="combo tap">
 <tspan x="224" dy="-0.6em">LEFT</tspan><tspan x="224" dy="1.2em">META</tspan>
 </text>
+<text x="224" y="42" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
 <text x="616" y="32" class="combo tap">Esc</text>
+<text x="616" y="42" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -1438,10 +1448,12 @@ text.label, text.footer { stroke: black; }
 <text x="224" y="32" class="combo tap">
 <tspan x="224" dy="-0.6em">LEFT</tspan><tspan x="224" dy="1.2em">META</tspan>
 </text>
+<text x="224" y="42" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
 <text x="616" y="32" class="combo tap">Esc</text>
+<text x="616" y="42" class="combo hold">sticky</text>
 </g>
 </g>
 </g>
@@ -1635,10 +1647,12 @@ text.label, text.footer { stroke: black; }
 <text x="224" y="32" class="combo tap">
 <tspan x="224" dy="-0.6em">LEFT</tspan><tspan x="224" dy="1.2em">META</tspan>
 </text>
+<text x="224" y="42" class="combo hold">sticky</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
 <text x="616" y="32" class="combo tap">Esc</text>
+<text x="616" y="42" class="combo hold">sticky</text>
 </g>
 </g>
 </g>

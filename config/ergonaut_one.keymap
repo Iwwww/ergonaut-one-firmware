@@ -41,12 +41,12 @@
         };
 
         Meta_2 {
-            bindings = <&kp LEFT_META>;
+            bindings = <&sk LEFT_META>;
             key-positions = <3 4>;
         };
 
         Escape_2 {
-            bindings = <&kp ESC>;
+            bindings = <&sk ESC>;
             key-positions = <8 7>;
         };
     };
