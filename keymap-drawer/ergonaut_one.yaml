@@ -78,7 +78,7 @@ layers:
   - F9
   - F10
   - F11
-  - LEFT ALT
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -311,4 +311,4 @@ combos:
 - p: [3, 4]
   k: {t: LEFT META, h: sticky}
 - p: [8, 7]
-  k: {t: Esc, h: sticky}
+  k: Esc
