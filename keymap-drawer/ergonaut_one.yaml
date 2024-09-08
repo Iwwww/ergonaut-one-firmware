@@ -304,7 +304,7 @@ combos:
 - p: [17, 38, 37]
   k: {t: game_base, h: toggle}
 - p: [15, 16]
-  k: ESCAPE
+  k: '&td_meta_esc'
   l: [base, game_base]
 - p: [19, 20]
   k: {t: LEFT META, h: sticky}
