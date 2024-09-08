@@ -29,25 +29,15 @@
             key-positions = <17 38 37>;
         };
 
-        Meta_Escape {
+        Meta_Escape_L {
             bindings = <&td_meta_esc>;
             key-positions = <15 16>;
             layers = <0 4>;
         };
 
-        Meta {
-            bindings = <&sk LEFT_META>;
+        Meta_Escape_R {
+            bindings = <&td_meta_esc>;
             key-positions = <19 20>;
-        };
-
-        Escape_2 {
-            bindings = <&kp ESC>;
-            key-positions = <8 7>;
-        };
-
-        Meta_2 {
-            bindings = <&sk LEFT_META>;
-            key-positions = <5 4>;
         };
 
         CW_Letters {
