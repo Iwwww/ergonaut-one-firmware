@@ -312,3 +312,5 @@ combos:
   k: Esc
 - p: [5, 4]
   k: {t: LEFT META, h: sticky}
+- p: [37, 40]
+  k: '&cw_letters'

@@ -345,6 +345,12 @@ path.combo { stroke: #7f7f7f; }
 </text>
 <text x="280" y="50" class="combo hold">sticky</text>
 </g>
+<g class="combo combopos-5">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<text x="420" y="213" class="combo tap"><tspan style="font-size: 64%">&amp;cw_letters</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-lower_base">
@@ -545,6 +551,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="280" dy="-0.6em">LEFT</tspan><tspan x="280" dy="1.2em">META</tspan>
 </text>
 <text x="280" y="50" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-4">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<text x="420" y="213" class="combo tap"><tspan style="font-size: 64%">&amp;cw_letters</tspan></text>
 </g>
 </g>
 </g>
@@ -790,6 +802,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="280" dy="-0.6em">LEFT</tspan><tspan x="280" dy="1.2em">META</tspan>
 </text>
 <text x="280" y="50" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-4">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<text x="420" y="213" class="combo tap"><tspan style="font-size: 64%">&amp;cw_letters</tspan></text>
 </g>
 </g>
 </g>
@@ -1040,6 +1058,12 @@ path.combo { stroke: #7f7f7f; }
 </text>
 <text x="280" y="50" class="combo hold">sticky</text>
 </g>
+<g class="combo combopos-4">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<text x="420" y="213" class="combo tap"><tspan style="font-size: 64%">&amp;cw_letters</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1323)" class="layer-game_base">
@@ -1249,6 +1273,12 @@ path.combo { stroke: #7f7f7f; }
 </text>
 <text x="280" y="50" class="combo hold">sticky</text>
 </g>
+<g class="combo combopos-5">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<text x="420" y="213" class="combo tap"><tspan style="font-size: 64%">&amp;cw_letters</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1653)" class="layer-game_lower">
@@ -1446,6 +1476,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="280" dy="-0.6em">LEFT</tspan><tspan x="280" dy="1.2em">META</tspan>
 </text>
 <text x="280" y="50" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-4">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<text x="420" y="213" class="combo tap"><tspan style="font-size: 64%">&amp;cw_letters</tspan></text>
 </g>
 </g>
 </g>
@@ -1645,6 +1681,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="280" dy="-0.6em">LEFT</tspan><tspan x="280" dy="1.2em">META</tspan>
 </text>
 <text x="280" y="50" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-4">
+<path d="M420,213 l-116,0" class="combo"/>
+<path d="M420,213 l116,0" class="combo"/>
+<rect rx="6" ry="6" x="406" y="200" width="28" height="26" class="combo"/>
+<text x="420" y="213" class="combo tap"><tspan style="font-size: 64%">&amp;cw_letters</tspan></text>
 </g>
 </g>
 </g>

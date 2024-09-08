@@ -49,6 +49,27 @@
             bindings = <&sk LEFT_META>;
             key-positions = <5 4>;
         };
+
+        CW_Letters {
+            bindings = <&cw_letters>;
+            key-positions = <37 40>;
+        };
+    };
+
+    behaviors {
+        td_meta_esc: td_meta_esc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD META-ESC";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_META>, <&kp ESCAPE>;
+        };
+
+        cw_letters: cw_letters {
+            compatible = "zmk,behavior-caps-word";
+            label = "CW_LETTERS";
+            #binding-cells = <0>;
+            continue-list = <Q W E R T A S D F G Z X C V B Y U I O P H J K L N M UNDERSCORE>;
+        };
     };
 
     keymap {
