@@ -68,7 +68,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "CW_LETTERS";
             #binding-cells = <0>;
-            continue-list = <Q W E R T A S D F G Z X C V B Y U I O P H J K L N M UNDERSCORE>;
+            continue-list = <Q W E R T A S D F G Z X C V B Y U I O P H J K L N M UNDERSCORE MINUS>;
         };
     };
 
