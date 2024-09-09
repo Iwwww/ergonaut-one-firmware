@@ -44,6 +44,11 @@
             bindings = <&cw_letters>;
             key-positions = <37 40>;
         };
+
+        Meta {
+            bindings = <&sk LEFT_META>;
+            key-positions = <14 16>;
+        };
     };
 
     behaviors {
