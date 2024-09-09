@@ -29,8 +29,8 @@
             key-positions = <17 38 37>;
         };
 
-        Meta_Escape_L {
-            bindings = <&td_meta_esc>;
+        Escape {
+            bindings = <&kp ESCAPE>;
             key-positions = <15 16>;
             layers = <0 4>;
         };
