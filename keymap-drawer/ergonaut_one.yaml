@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   raise_base:
   - {t: KP NUM, h: Gui}
@@ -162,7 +162,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+ .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+ ↹

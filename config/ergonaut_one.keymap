@@ -63,7 +63,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "CW_LETTERS";
             #binding-cells = <0>;
-            continue-list = <Q W E R T A S D F G Z X C V B Y U I O P H J K L N M UNDERSCORE MINUS>;
+            continue-list = <Q W E R T A S D F G Z X C V B Y U I O P H J K L N M UNDERSCORE MINUS SPACE BACKSPACE>;
         };
     };
 
@@ -81,10 +81,10 @@
 
         lower_base {
             bindings = <
-&kp F1           &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
-&mt LCTRL PLUS   &kp N1    &kp N2  &kp NUMBER_3  &kp N4      &kp N5       &kp N6     &kp N7    &kp N8    &kp N9                &kp N0                 &mt RCTRL MINUS
-&mt LCTRL EQUAL  &kp F2    &kp F3  &kp F4        &kp F5      &kp F6       &kp F7     &kp F8    &kp F9    &kp F10               &kp F11                &kp F12
-                                   &trans        &trans      &trans       &trans     &trans    &trans
+&kp F1           &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS    &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&mt LCTRL PLUS   &kp N1    &kp N2  &kp NUMBER_3  &kp N4      &kp N5       &kp N6     &kp N7      &kp N8    &kp N9                &kp N0                 &mt RCTRL MINUS
+&mt LCTRL EQUAL  &kp F2    &kp F3  &kp F4        &kp F5      &kp F6       &kp F7     &kp F8      &kp F9    &kp F10               &kp F11                &kp F12
+                                   &trans        &trans      &trans       &trans     &kp DELETE  &trans
             >;
         };
 
@@ -99,9 +99,9 @@
 
         window_manager {
             bindings = <
-&trans     &kp LG(F1)  &kp LG(F2)  &kp LG(F3)   &kp LG(F4)            &kp LG(F5)     &kp LG(F6)  &kp LG(F7)  &kp LG(F8)  &kp LG(F9)  &kp LG(F10)  &trans
-&trans     &kp LG(N1)  &kp LG(N2)  &kp LG(N3)   &kp LG(N4)            &kp LG(N5)     &kp LG(H)   &kp LG(J)   &kp LG(K)   &kp LG(L)   &trans       &trans
-&kp LCTRL  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)   &kp LG(NUMBER_9)      &kp LG(N0)     &trans      &trans      &trans      &trans      &trans       &trans
+&trans     &kp LG(F1)  &kp LG(F2)  &kp LG(F3)   &kp LG(F4)            &kp LG(F5)     &kp LG(F6)  &kp LG(F7)  &kp LG(F8)  &kp LG(F9)      &kp LG(F10)  &trans
+&trans     &kp LG(N1)  &kp LG(N2)  &kp LG(N3)   &kp LG(N4)            &kp LG(N5)     &kp LG(H)   &kp LG(J)   &kp LG(K)   &kp LG(L)       &trans       &trans
+&kp LCTRL  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)   &kp LG(NUMBER_9)      &kp LG(N0)     &trans      &trans      &trans      &kp LG(PERIOD)  &trans       &trans
                                    &kp LG(TAB)  &mt LEFT_SHIFT SPACE  &kp LG(ENTER)  &trans      &trans      &trans
             >;
         };
