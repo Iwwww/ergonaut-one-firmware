@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: lower_base}
   - {t: Ctrl, h: window_manager}
   - {t: ⌫, h: Shift}
-  - {t: LEFT ALT, h: raise_base}
+  - {t: Ctrl, h: raise_base}
   lower_base:
   - F1
   - '!'
