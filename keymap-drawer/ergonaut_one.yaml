@@ -93,9 +93,9 @@ layers:
   - KP 9
   - KP MINUS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⏭️
+  - PREVIOUS
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '=', h: Ctrl}
@@ -109,7 +109,7 @@ layers:
   - ↑
   - →
   - {t: ▽, type: trans}
-  - {t: APP, h: Ctrl}
+  - ''
   - Ctrl
   - KP 0
   - KP 1
