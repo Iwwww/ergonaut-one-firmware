@@ -99,10 +99,10 @@
 
         window_manager {
             bindings = <
-&trans     &kp LG(F1)  &kp LG(F2)  &kp LG(F3)   &kp LG(F4)            &kp LG(F5)     &kp LG(F6)  &kp LG(F7)  &kp LG(F8)  &kp LG(F9)      &kp LG(F10)  &trans
-&trans     &kp LG(N1)  &kp LG(N2)  &kp LG(N3)   &kp LG(N4)            &kp LG(N5)     &kp LG(H)   &kp LG(J)   &kp LG(K)   &kp LG(L)       &trans       &trans
-&kp LCTRL  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)   &kp LG(NUMBER_9)      &kp LG(N0)     &trans      &trans      &trans      &kp LG(PERIOD)  &trans       &trans
-                                   &kp LG(TAB)  &mt LEFT_SHIFT SPACE  &kp LG(ENTER)  &trans      &trans      &trans
+&trans  &kp LG(F1)  &kp LG(F2)  &kp LG(F3)   &kp LG(F4)            &kp LG(F5)     &kp LG(F6)  &kp LG(F7)  &kp LG(F8)  &kp LG(F9)      &kp LG(F10)  &trans
+&trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)   &kp LG(N4)            &kp LG(N5)     &kp LG(H)   &kp LG(J)   &kp LG(K)   &kp LG(L)       &trans       &trans
+&trans  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)   &kp LG(NUMBER_9)      &kp LG(N0)     &trans      &trans      &trans      &kp LG(PERIOD)  &trans       &trans
+                                &kp LG(TAB)  &mt LEFT_SHIFT SPACE  &kp LG(ENTER)  &trans      &trans      &trans
             >;
         };
 

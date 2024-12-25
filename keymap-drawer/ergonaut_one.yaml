@@ -153,7 +153,7 @@ layers:
   - Lock
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctrl
+  - {t: ▽, type: trans}
   - Gui+6
   - Gui+7
   - Gui+8
