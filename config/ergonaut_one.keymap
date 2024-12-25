@@ -72,7 +72,7 @@
 
         base {
             bindings = <
-&kp BACKSLASH       &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P     &kp LBKT
+&kp LEFT_BRACKET    &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P     &kp RIGHT_BRACKET
 &mt LEFT_ALT GRAVE  &kp A  &kp S  &kp D      &kp F            &kp G        &kp H        &kp J           &kp K        &kp L    &kp SEMI  &mt RCTRL SQT
 &mt LCTRL MINUS     &kp Z  &kp X  &kp C      &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT  &kp FSLH  &kp LEFT_ALT
                                   &lt 2 TAB  &mt LSHFT SPACE  &lt 1 ENTER  &lt 3 LCTRL  &mt RSHFT BSPC  &lt 2 LCTRL
@@ -81,7 +81,7 @@
 
         lower_base {
             bindings = <
-&kp F1           &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS    &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&kp F1           &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS    &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
 &mt LCTRL PLUS   &kp N1    &kp N2  &kp NUMBER_3  &kp N4      &kp N5       &kp N6     &kp N7      &kp N8    &kp N9                &kp N0                 &mt RCTRL MINUS
 &mt LCTRL EQUAL  &kp F2    &kp F3  &kp F4        &kp F5      &kp F6       &kp F7     &kp F8      &kp F9    &kp F10               &kp F11                &kp F12
                                    &trans        &trans      &trans       &trans     &kp DELETE  &trans

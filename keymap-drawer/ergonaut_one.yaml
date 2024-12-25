@@ -1,6 +1,6 @@
 layers:
   base:
-  - \
+  - '['
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - ']'
   - {t: '`', h: LEFT ALT}
   - A
   - S
@@ -54,7 +54,7 @@ layers:
   - '*'
   - (
   - )
-  - ']'
+  - '|'
   - {t: +, h: Ctrl}
   - '1'
   - '2'
@@ -100,10 +100,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
-  - Sft+ SCROLL UP
+  - Sft+SCROLL UP
   - SCROLL UP
   - SCROLL DOWN
-  - Sft+ SCROLL DOWN
+  - Sft+SCROLL DOWN
   - ←
   - DOWN ARROW
   - ↑
@@ -130,44 +130,44 @@ layers:
   - {t: ▽, type: trans}
   window_manager:
   - {t: ▽, type: trans}
-  - Gui+ F1
-  - Gui+ F2
-  - Gui+ F3
-  - Gui+ F4
-  - Gui+ F5
-  - Gui+ F6
-  - Gui+ F7
-  - Gui+ F8
-  - Gui+ F9
-  - Gui+ F10
+  - Gui+F1
+  - Gui+F2
+  - Gui+F3
+  - Gui+F4
+  - Gui+F5
+  - Gui+F6
+  - Gui+F7
+  - Gui+F8
+  - Gui+F9
+  - Gui+F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ 1
-  - Gui+ 2
-  - Gui+ 3
-  - Gui+ 4
-  - Gui+ 5
-  - Gui+ H
-  - Gui+ J
-  - Gui+ K
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
+  - Gui+H
+  - Gui+J
+  - Gui+K
   - Lock
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctrl
-  - Gui+ 6
-  - Gui+ 7
-  - Gui+ 8
-  - Gui+ 9
-  - Gui+ 0
+  - Gui+6
+  - Gui+7
+  - Gui+8
+  - Gui+9
+  - Gui+0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ .
+  - Gui+.
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ ↹
+  - Gui+↹
   - {t: ␣, h: LEFT SHIFT}
-  - Gui+ ENTER
+  - Gui+ENTER
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
