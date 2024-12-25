@@ -86,36 +86,36 @@ layers:
   - DELETE
   - {t: ▽, type: trans}
   raise_base:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - ⏭️
-  - PREVIOUS
+  - NEXT
+  - PREV
   - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - Sft+SCROLL UP
-  - SCROLL UP
-  - SCROLL DOWN
-  - Sft+SCROLL DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ←
   - DOWN ARROW
   - ↑
   - →
   - {t: ▽, type: trans}
   - ''
-  - Ctrl
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ⌦
+  - ''
   - MUTE
   - Vol Up
   - VOLUME DOWN
