@@ -89,8 +89,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - ''''
+  - '"'
   - ''
   - {t: ▽, type: trans}
   - NEXT
@@ -103,7 +103,7 @@ layers:
   - '}'
   - (
   - )
-  - ']'
+  - .
   - ←
   - DOWN ARROW
   - ↑
@@ -115,7 +115,7 @@ layers:
   - ']'
   - <
   - '>'
-  - ''
+  - ','
   - MUTE
   - Vol Up
   - VOLUME DOWN
