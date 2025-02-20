@@ -65,6 +65,16 @@
             #binding-cells = <0>;
             continue-list = <Q W E R T A S D F G Z X C V B Y U I O P H J K L N M UNDERSCORE MINUS SPACE BACKSPACE>;
         };
+
+        th: th {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Tap/Hold";
+            bindings = <&none>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+        };
     };
 
     keymap {
