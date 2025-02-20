@@ -66,14 +66,15 @@
             continue-list = <Q W E R T A S D F G Z X C V B Y U I O P H J K L N M UNDERSCORE MINUS SPACE BACKSPACE>;
         };
 
-        th: th {
+        lsl: lsl {
             compatible = "zmk,behavior-hold-tap";
-            label = "Tap/Hold";
-            bindings = <&none>, <&none>;
+            label = "Layer/Sticky layer";
+            bindings = <&mo>, <&sl>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <200>;
+            require-prior-idle-ms = <300>;
         };
     };
 
@@ -82,10 +83,10 @@
 
         base {
             bindings = <
-&kp LEFT_BRACKET    &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O    &kp P     &kp RIGHT_BRACKET
-&mt LEFT_ALT GRAVE  &kp A  &kp S  &kp D      &kp F            &kp G        &kp H        &kp J           &kp K        &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LCTRL MINUS     &kp Z  &kp X  &kp C      &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT  &kp FSLH  &kp LEFT_ALT
-                                  &lt 2 TAB  &mt LSHFT SPACE  &lt 1 ENTER  &lt 3 LCTRL  &mt RSHFT BSPC  &lt 2 LCTRL
+&kp LEFT_BRACKET    &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &kp RIGHT_BRACKET
+&mt LEFT_ALT GRAVE  &kp A  &kp S  &kp D      &kp F            &kp G        &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
+&mt LCTRL MINUS     &kp Z  &kp X  &kp C      &kp V            &kp B        &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT
+                                  &lt 2 TAB  &mt LSHFT SPACE  &lt 1 ENTER  &lt 3 LCTRL  &mt RSHFT BSPC  &lsl 2 2
             >;
         };
 
