@@ -98,7 +98,7 @@ layers:
   - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - ;
   - '{'
   - '}'
   - (
