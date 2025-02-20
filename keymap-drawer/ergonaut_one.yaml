@@ -1,6 +1,6 @@
 layers:
   base:
-  - '['
+  - '|'
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - ']'
+  - ''
   - {t: '`', h: LEFT ALT}
   - A
   - S
@@ -43,7 +43,7 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: raise_base, h: raise_base}
   lower_base:
-  - ''
+  - \
   - '!'
   - '@'
   - '#'
@@ -88,7 +88,7 @@ layers:
   raise_base:
   - ''
   - ''
-  - ''
+  - /
   - ''''
   - '"'
   - ''

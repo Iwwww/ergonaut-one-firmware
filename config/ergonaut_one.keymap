@@ -83,7 +83,7 @@
 
         base {
             bindings = <
-&kp LEFT_BRACKET    &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &kp RIGHT_BRACKET
+&kp PIPE            &kp Q  &kp W  &kp E      &kp R            &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &none
 &mt LEFT_ALT GRAVE  &kp A  &kp S  &kp D      &kp F            &kp G        &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
 &mt LCTRL MINUS     &kp Z  &kp X  &kp C      &kp V            &kp B        &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT
                                   &lt 2 TAB  &mt LSHFT SPACE  &lt 1 ENTER  &lt 3 LCTRL  &mt RSHFT BSPC  &lsl 2 2
@@ -92,16 +92,16 @@
 
         lower_base {
             bindings = <
-&none      &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS    &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp PLUS   &kp N1    &kp N2  &kp NUMBER_3  &kp N4      &kp N5       &kp N6     &kp N7      &kp N8    &kp N9                &kp N0                 &trans
-&kp EQUAL  &kp F1    &kp F2  &kp F3        &kp F4      &kp F5       &kp F6     &kp F7      &kp F8    &kp F9                &kp F10                &kp F11
-                             &trans        &trans      &trans       &trans     &kp DELETE  &trans
+&kp BACKSLASH  &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS    &kp STAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp PLUS       &kp N1    &kp N2  &kp NUMBER_3  &kp N4      &kp N5       &kp N6     &kp N7      &kp N8    &kp N9                &kp N0                 &trans
+&kp EQUAL      &kp F1    &kp F2  &kp F3        &kp F4      &kp F5       &kp F6     &kp F7      &kp F8    &kp F9                &kp F10                &kp F11
+                                 &trans        &trans      &trans       &trans     &kp DELETE  &trans
             >;
         };
 
         raise_base {
             bindings = <
-&none  &none             &none              &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &none      &trans      &kp K_NEXT      &kp K_PREV         &kp K_PLAY_PAUSE  &trans         &trans
+&none  &none             &kp SLASH          &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &none      &trans      &kp K_NEXT      &kp K_PREV         &kp K_PLAY_PAUSE  &trans         &trans
 &none  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOT    &kp LEFT    &kp DOWN_ARROW  &kp UP             &kp RIGHT         &trans         &none
 &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LT                &kp GT                 &kp COMMA  &kp C_MUTE  &kp C_VOL_UP    &kp C_VOLUME_DOWN  &kp C_BRI_INC     &kp C_BRI_DEC  &trans
                                             &trans                &trans                 &trans     &trans      &trans          &trans
