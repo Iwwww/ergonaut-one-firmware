@@ -43,7 +43,7 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: raise_base, h: raise_base}
   lower_base:
-  - F1
+  - ''
   - '!'
   - '@'
   - '#'
@@ -68,6 +68,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - '='
+  - F1
   - F2
   - F3
   - F4
@@ -78,7 +79,6 @@ layers:
   - F9
   - F10
   - F11
-  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
