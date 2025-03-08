@@ -101,10 +101,10 @@
 
         raise_base {
             bindings = <
-&none          &none             &kp SLASH          &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &none      &trans      &kp K_NEXT      &kp K_PREV         &kp K_PLAY_PAUSE  &trans         &trans
-&kp SEMICOLON  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOT    &kp LEFT    &kp DOWN_ARROW  &kp UP             &kp RIGHT         &trans         &none
-&trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LT                &kp GT                 &kp COMMA  &kp C_MUTE  &kp C_VOL_UP    &kp C_VOLUME_DOWN  &kp C_BRI_INC     &kp C_BRI_DEC  &trans
-                                                    &trans                &trans                 &trans     &trans      &trans          &trans
+&none             &none             &kp SLASH          &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &none      &trans      &kp K_NEXT      &kp K_PREV         &kp K_PLAY_PAUSE  &trans         &trans
+&kp SEMICOLON     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOT    &kp LEFT    &kp DOWN_ARROW  &kp UP             &kp RIGHT         &trans         &none
+&kp LEFT_CONTROL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LT                &kp GT                 &kp COMMA  &kp C_MUTE  &kp C_VOL_UP    &kp C_VOLUME_DOWN  &kp C_BRI_INC     &kp C_BRI_DEC  &trans
+                                                       &trans                &trans                 &trans     &trans      &trans          &trans
             >;
         };
 
