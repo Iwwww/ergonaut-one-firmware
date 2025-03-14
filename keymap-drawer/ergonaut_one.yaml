@@ -68,7 +68,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - '='
+  - {t: '=', h: LEFT CONTROL}
   - F1
   - F2
   - F3
