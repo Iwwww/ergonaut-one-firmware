@@ -97,7 +97,7 @@ layers:
   - NEXT
   - PREV
   - PLAY PAUSE
-  - {t: ▽, type: trans}
+  - Sft+PLAY PAUSE
   - {t: ▽, type: trans}
   - ;
   - '{'
